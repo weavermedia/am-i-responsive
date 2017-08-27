@@ -25,3 +25,7 @@ Icon
 Network Trash Folder
 Temporary Items
 .apdisk
+
+# Other
+config.codekit
+sass/.sass-cache
