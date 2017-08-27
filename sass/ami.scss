@@ -6,6 +6,8 @@ body {
   font-family: sans-serif;
   margin:0;
   padding:0;
+  max-height: 100vh;
+  overflow: hidden;
 }
 
 h1 {
@@ -14,7 +16,7 @@ h1 {
 }
 
 .wrapper {
-  width: 90%;
+  width: 100%;
   max-width: 1200px;
   margin:0 auto;
 }
@@ -22,7 +24,7 @@ h1 {
 .display {
   position: relative;
   left: 0px;
-  height: 600px;
+  height: 800px;
 }
 
 div {
@@ -32,7 +34,7 @@ div {
 }
 
 iframe {
-  transform: scale(0.219);
+  transform: scale(0.273);
   transform-origin: top left;
   margin: 0;
   padding: 0;
@@ -44,75 +46,72 @@ iframe {
 .mobile {
   background-image: url("../images/iphone-optimised.png");
   position: absolute;
-  width: 95px;
-  height: 196px;
-  top: 375px;
-  left: 300px;
+  width: 130px;
+  top: 410px;
+  left: 320px;
   z-index: 5;
 
   iframe {
     width: 320px;
-    height: 490px;
-    top: 31px;
-    left: 11px;
+    height: 480px;
+    top: 42px;
+    left: 14px;
+    transform: scale(0.305);
+    transform-origin: top left;
     overflow-y: hidden;
   }
 }
 
 .tablet {
   background-image: url("../images/ipad-optimised.png");
-  width: 246px;
-  height: 400px;
+  width: 308px;
   z-index: 3;
   position: absolute;
-  left: 120px;
-  top: 230px;
+  left: 100px;
+  top: 270px;
 
   iframe {
     width: 768px;
     height: 1024px;
-    top: 34px;
-    left: 39px;
+    top: 42px;
+    left: 48px;
     overflow-y: hidden;
   }
 }
 
 .laptop {
   background-image: url("../images/laptop-screen-optimised.png");
-  width: 477px;
-  height: 307px;
-  top: 264px;
-  left: 560px;
+  width: 596px;
+  top: 300px;
+  left: 620px;
   position: absolute;
   z-index: 2;
 
   iframe {
     width: 1280px;
     height: 802px;
-    top:26px;
-    left:60px;
-    transform: scale(0.277);
+    top: 31px;
+    left: 74px;
+    transform: scale(0.348);
     transform-origin: top left;
   }
-
 }
-
 
 .desktop {
   position: absolute;
-  width: 566px;
-  height: 538px;
+  width: 707px;
+  height: 768px;
   background-image: url("../images/large-screen-optimised.png");
   top: 0;
   left: 222px;
   z-index: 1;
 
   iframe {
-    left: 28px;
-    top: 38px;
+    left: 34px;
+    top: 46px;
     width: 1600px;
     height: 992px;
-    transform: scale(0.3181);
+    transform: scale(0.398);
     transform-origin: top left;
   }
 }
@@ -131,8 +130,8 @@ iframe {
 
 @media (max-width: 1160px) {
   .display {
-    width:95%;
-    height: 550px;
+    width: 100%;
+    height: 650px;
     transform: scale(0.81);
   }
 
