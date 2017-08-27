@@ -17,14 +17,15 @@ h1 {
 
 .wrapper {
   width: 100%;
-  max-width: 1200px;
   margin:0 auto;
 }
 
 .display {
   position: relative;
   left: 0px;
-  height: 800px;
+  height: 100vh;
+  transform: scale(1.5);
+  transform-origin: left top;
 }
 
 div {

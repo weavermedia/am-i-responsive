@@ -15,13 +15,16 @@ h1 {
 
 .wrapper {
   width: 100%;
-  max-width: 1200px;
   margin: 0 auto; }
 
 .display {
   position: relative;
   left: 0px;
-  height: 800px; }
+  height: 100vh;
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+  -webkit-transform-origin: left top;
+          transform-origin: left top; }
 
 div {
   background-repeat: no-repeat;
