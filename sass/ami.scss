@@ -1,12 +1,18 @@
-body {background-color: #fff;
-      background-size: 100%;
-      background-size: cover;
-      margin-top: 20px;
-      font-family: sans-serif;
-      margin:0;
-      padding:0;}
+body {
+  background-color: #fff;
+  background-size: 100%;
+  background-size: cover;
+  margin-top: 20px;
+  font-family: sans-serif;
+  margin:0;
+  padding:0;
+}
 
-h1 {text-transform: uppercase;text-align: center}
+h1 {
+  text-transform: uppercase;
+  text-align: center
+}
+
 .wrapper {
   width: 90%;
   max-width: 1200px;
@@ -20,9 +26,9 @@ h1 {text-transform: uppercase;text-align: center}
 }
 
 div {
-   background-repeat: no-repeat; 
-   background-size: 100%;
-   overflow:hidden;
+  background-repeat: no-repeat; 
+  background-size: 100%;
+  overflow:hidden;
 }
 
 iframe {
@@ -44,7 +50,7 @@ iframe {
   left: 300px;
   z-index: 5;
 
-  iframe{
+  iframe {
     width: 320px;
     height: 490px;
     top: 31px;
@@ -79,6 +85,7 @@ iframe {
   left: 560px;
   position: absolute;
   z-index: 2;
+
   iframe {
     width: 1280px;
     height: 802px;
@@ -115,65 +122,62 @@ iframe {
   max-width:64em;
   width: 80%;
   margin:1em auto;
+
   li {
     margin-bottom: 0.5em;
     line-height: 1.2;
   }
 }
 
-@media (max-width: 1160px){
-  .display{
+@media (max-width: 1160px) {
+  .display {
     width:95%;
     height: 550px;
     transform: scale(0.81);
   }
 
-  .desktop{left: 180px;}
-  .laptop{left: 520px;}
-  .tablet{left: 80px;}
-  .mobile{left: 260px;}
-  input {width:88%;}
+  .desktop {left: 180px;}
+  .laptop {left: 520px;}
+  .tablet {left: 80px;}
+  .mobile {left: 260px;}
 }
 
-@media (max-width:1070px){
+@media (max-width:1070px) {
   .display {
     left:-50px;
   }
 }
 
-@media (max-width: 1000px){
-  .display{
+@media (max-width: 1000px) {
+  .display {
     height: 500px;
     transform: scale(0.71);
     top: -40px;
   }
 
-  .desktop{left: 140px;}
-  .laptop{left: 480px;}
-  .tablet{left: 40px;}
-  .mobile{left: 220px;}
+  .desktop {left: 140px;}
+  .laptop {left: 480px;}
+  .tablet {left: 40px;}
+  .mobile {left: 220px;}
 }
 
-@media (max-width: 850px){
+@media (max-width: 850px) {
   .display{
     height: 500px;
     transform: scale(0.65);
   }
 
-  .desktop{left: 100px;}
-  .laptop{left: 440px;}
-  .tablet{left: 0px;}
-  .mobile{left: 180px;}
+  .desktop {left: 100px;}
+  .laptop {left: 440px;}
+  .tablet {left: 0px;}
+  .mobile {left: 180px;}
 }
 
-@media (max-width: 768px){
-  .display{
+@media (max-width: 768px) {
+  .display {
     height: 450px;
     transform: scale(0.55);
   }
-
-  a.button {font-size: 1.6em; line-height: 1.75em; margin-top:0.5em; width:100%;}
-  input {height:1.2em; width:100%;}
 }
 
 @media (max-width:670px){
@@ -189,13 +193,6 @@ iframe {
     font-size: 1.4em;
     height: 1.4em;
     width:100%;
-  }
-
-  a.button {
-    width:100%;
-    float:left;
-    font-size:1.4em;
-    margin-top:0.5em;
   }
 }
 
@@ -230,5 +227,4 @@ iframe {
   .tablet {left: 0px;}
   .mobile {left: 180px;}
   h1 {font-size: 1.2em;}
-  p {margin: 1em;}
 }
