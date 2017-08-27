@@ -1,15 +1,9 @@
-@font-face {
-  font-family: 'RobotoMedium';
-  src: url("/fonts/Roboto-Medium-webfont.eot");
-  src: url("/fonts/Roboto-Medium-webfont.eot?#iefix") format("embedded-opentype"), url("/fonts/Roboto-Medium-webfont.woff") format("woff"), url("/fonts/Roboto-Medium-webfont.ttf") format("truetype"), url("/fonts/Roboto-Medium-webfont.svg#RobotoMedium") format("svg");
-  font-weight: normal;
-  font-style: normal; }
 body {
   background-color: #fff;
   background-size: 100%;
   background-size: cover;
   margin-top: 20px;
-  font-family: 'RobotoMedium';
+  font-family: sans-serif;
   margin: 0;
   padding: 0; }
 
@@ -33,20 +27,15 @@ div {
   overflow: hidden; }
 
 iframe {
-  transform: scale(0.219);
   -webkit-transform: scale(0.219);
-  -o-transform: scale(0.219);
-  -ms-transform: scale(0.219);
-  -moz-transform: scale(0.219);
-  transform-origin: top left;
+          transform: scale(0.219);
   -webkit-transform-origin: top left;
-  -o-transform-origin: top left;
-  -ms-transform-origin: top left;
-  -moz-transform-origin: top left;
+          transform-origin: top left;
   margin: 0;
   padding: 0;
   position: relative;
-  background-color: #000; }
+  background-color: #000;
+  border: 2px solid #777; }
 
 .mobile {
   background-image: url("../images/iphone-optimised.png");
@@ -58,8 +47,8 @@ iframe {
   z-index: 5; }
   .mobile iframe {
     width: 320px;
-    height: 480px;
-    top: 33px;
+    height: 490px;
+    top: 31px;
     left: 11px;
     overflow-y: hidden; }
 
@@ -74,7 +63,7 @@ iframe {
   .tablet iframe {
     width: 768px;
     height: 1024px;
-    top: 36px;
+    top: 34px;
     left: 39px;
     overflow-y: hidden; }
 
@@ -91,40 +80,28 @@ iframe {
     height: 802px;
     top: 26px;
     left: 60px;
-    transform: scale(0.277);
     -webkit-transform: scale(0.277);
-    -o-transform: scale(0.277);
-    -ms-transform: scale(0.277);
-    -moz-transform: scale(0.277);
-    transform-origin: top left;
+            transform: scale(0.277);
     -webkit-transform-origin: top left;
-    -o-transform-origin: top left;
-    -ms-transform-origin: top left;
-    -moz-transform-origin: top left; }
+            transform-origin: top left; }
 
 .desktop {
   position: absolute;
   width: 566px;
   height: 538px;
   background-image: url("../images/large-screen-optimised.png");
-  top: 0px;
-  left: 220px;
+  top: 0;
+  left: 222px;
   z-index: 1; }
   .desktop iframe {
     left: 28px;
     top: 38px;
     width: 1600px;
     height: 992px;
-    transform: scale(0.3181);
     -webkit-transform: scale(0.3181);
-    -o-transform: scale(0.3181);
-    -ms-transform: scale(0.3181);
-    -moz-transform: scale(0.3181);
-    transform-origin: top left;
+            transform: scale(0.3181);
     -webkit-transform-origin: top left;
-    -o-transform-origin: top left;
-    -ms-transform-origin: top left;
-    -moz-transform-origin: top left; }
+            transform-origin: top left; }
 
 .about-tool {
   font-size: 1.2em;
@@ -139,11 +116,8 @@ iframe {
   .display {
     width: 95%;
     height: 550px;
-    transform: scale(0.81);
     -webkit-transform: scale(0.81);
-    -o-transform: scale(0.81);
-    -ms-transform: scale(0.81);
-    -moz-transform: scale(0.81); }
+            transform: scale(0.81); }
 
   .desktop {
     left: 180px; }
@@ -165,11 +139,8 @@ iframe {
 @media (max-width: 1000px) {
   .display {
     height: 500px;
-    transform: scale(0.71);
     -webkit-transform: scale(0.71);
-    -o-transform: scale(0.71);
-    -ms-transform: scale(0.71);
-    -moz-transform: scale(0.71);
+            transform: scale(0.71);
     top: -40px; }
 
   .desktop {
@@ -186,11 +157,8 @@ iframe {
 @media (max-width: 850px) {
   .display {
     height: 500px;
-    transform: scale(0.65);
     -webkit-transform: scale(0.65);
-    -o-transform: scale(0.65);
-    -ms-transform: scale(0.65);
-    -moz-transform: scale(0.65); }
+            transform: scale(0.65); }
 
   .desktop {
     left: 100px; }
@@ -206,11 +174,8 @@ iframe {
 @media (max-width: 768px) {
   .display {
     height: 450px;
-    transform: scale(0.55);
     -webkit-transform: scale(0.55);
-    -o-transform: scale(0.55);
-    -ms-transform: scale(0.55);
-    -moz-transform: scale(0.55); }
+            transform: scale(0.55); }
 
   a.button {
     font-size: 1.6em;
@@ -225,11 +190,8 @@ iframe {
   .display {
     height: 400px;
     left: -70px;
-    transform: scale(0.45);
     -webkit-transform: scale(0.45);
-    -o-transform: scale(0.45);
-    -ms-transform: scale(0.45);
-    -moz-transform: scale(0.45); } }
+            transform: scale(0.45); } }
 @media (max-width: 580px) {
   input {
     font-size: 1.4em;
@@ -245,32 +207,23 @@ iframe {
   .display {
     height: 270px;
     top: -65px;
-    transform: scale(0.37);
     -webkit-transform: scale(0.37);
-    -o-transform: scale(0.37);
-    -ms-transform: scale(0.37);
-    -moz-transform: scale(0.37); } }
+            transform: scale(0.37); } }
 @media (max-width: 440px) {
   .display {
     left: -17px;
     top: -65px;
     width: 70px;
-    transform: scale(0.35);
     -webkit-transform: scale(0.35);
-    -o-transform: scale(0.35);
-    -ms-transform: scale(0.35);
-    -moz-transform: scale(0.35); } }
+            transform: scale(0.35); } }
 @media (max-width: 380px) {
   .display {
     height: 235px;
     left: -17px;
     top: -65px;
     width: 70px;
-    transform: scale(0.27);
     -webkit-transform: scale(0.27);
-    -o-transform: scale(0.27);
-    -ms-transform: scale(0.27);
-    -moz-transform: scale(0.27); }
+            transform: scale(0.27); }
 
   .desktop {
     left: 100px; }

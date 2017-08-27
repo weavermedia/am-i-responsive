@@ -46,9 +46,9 @@ iframe {
 
   iframe{
     width: 320px;
-    height:480px;
-    top:33px;
-    left:11px;
+    height: 490px;
+    top: 31px;
+    left: 11px;
     overflow-y: hidden;
   }
 }
@@ -61,13 +61,14 @@ iframe {
   position: absolute;
   left: 120px;
   top: 230px;
-    iframe {
-      width: 768px;
-      height: 1024px;
-      top: 36px;
-      left: 39px;
-      overflow-y: hidden;
-    }
+
+  iframe {
+    width: 768px;
+    height: 1024px;
+    top: 34px;
+    left: 39px;
+    overflow-y: hidden;
+  }
 }
 
 .laptop {
@@ -95,9 +96,10 @@ iframe {
   width: 566px;
   height: 538px;
   background-image: url("../images/large-screen-optimised.png");
-  top: 0px;
-  left: 220px;
+  top: 0;
+  left: 222px;
   z-index: 1;
+
   iframe {
     left: 28px;
     top: 38px;
